@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    font-family: 'Fjalla One', sans-serif;
+    background-image: url("https://www.clinicamontecarmelo.es/images/easyblog_articles/97/cirugia-medicina-estetica.jpg");
+    text-align:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#encabezado{
+    width: 10%;
+    height: 10%;
+}
+nav{
+    background-color: black ;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background-color:rgb(216, 231, 231);
+    border-radius: 5px;
+}
+.inicio{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.articulo{
+    width: 100%;
+}
+#img{
+    width: 80%;
+    margin: 10px;
+}
+.articulo1{
+    margin: 5px;
+    max-width: 60%;
+    padding: 20px;
+    text-align:justify;
+    text-align-last:justify ;
+    font-size: large;
+    align-items: center;
+}
+.inicio1{
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.img1{
+    width: 50vh;
+    height: 30vh;
+}
+footer{
+    text-align: center;
+    background-color: black;
+}
+.inicio2{
+    padding-left: 120px;
+    margin-bottom: 10px;
+    color: white;
+}
+.inicio3{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+div a{
+    text-decoration: none; 
+    color: white;
+}
+div a:hover{
+    border-radius: 5px;
+    background-color:rgb(216, 231, 231);
+}
+.img2{
+    width: 30vh;
+    height: 30vh;
+    border-radius: 50%;
+}
+.nosotros{
+    margin-top: 10px;
+    padding-left: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px;
+    
+}
+.texto1{
+    width: 40vh;
+    text-align: justify;
+    text-align-last:justify ;
+}
+div h3{
+    text-align: center;
+    font-size: larger;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nosotros1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align:justify;
+    margin: 50px;
+    gap: 20px;
+}
+.clinicas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;   
+}
+main h2{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.texto3{
+    margin: 30px;
+    width: 90vh;
+    font-size: large;
+    text-align: justify;   
+}
+.clinicas1{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+.img4{
+    width: 50vh;
+    height: 50vh;
+    box-shadow:0 0 10px 5px rgb( 0, 0, 0, 0.5);
+    
+    
+}
+.img4:hover{
+    transform: scale(1.1);
+}
+.procedimientos1{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.procedimientos1 p{
+    margin: 10px;
+    font-size: larger;
+    width: 50%;
+    text-align: justify;
+}
+.procedimientos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+table{
+    width: 80vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ tr, td{
+    border: 1px solid black;
+    text-align: center;
+}
+tbody{
+    background-color: rgb(245, 153, 199);
+}
+.img-procedimientos{
+    width: 20vh;
+    height: 20vh;
+}
+.img-procedimientos:hover{
+    border-radius: 50%;
+    transform: scale(1.1);
+}
+.antesydespues{
+   display:grid;
+   grid-template-columns: 1fr 1fr;
+   margin: 30px;
+
+}
+.antes{
+    width: 70vh;
+    height: 50vh;
+    box-shadow: 0 0 10px 5px black;
+}
+.antes:hover{
+    transition: all 0.5s;
+    transform: scale(1.05);
+    
+}
+.antestex{
+    width: 70%;
+    margin: 5px;
+    text-align: justify;
+}
+.antestit{
+    text-align: center;
+    font-size: larger;
+    margin: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.antesform{
+    background-image: url(../img/30.jpg);
+    height: 30rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 25px;
+}
+.titulo{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.formulario{
+    background-color:  rgba(238, 231, 231, 0.5);
+    margin: -10rem auto 0 auto;
+    width: 95%;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+form label, input{
+    padding: 3px;
+    margin: 5px;
+}
+@media(max-width: 550px){
+    .img1{
+        width: 45vh;
+    }
+    nav ul li{
+        display:block;
+    }
+    .inicio1{
+        display:inline-block;
+    }
+    .inicio2{
+        padding:0;
+        text-align:center;
+    }
+    .inicio3{
+        display:block
+    }
+    .nosotros{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .nosotros1{
+        display:flex;
+        flex-direction:column;
+    }
+    .clinicas{
+        display:block;
+    }
+    .texto3{
+        width:40vh;
+    }
+    .clinicas1{
+    display:flex;
+    flex-direction:column;
+    margin: auto;
+    }
+    .img4{
+        width:40vh;
+        height:190px;
+        margin-bottom:20px;
+    }
+    .procedimientos{
+        display:block;
+    }
+    table{
+        width:45vh
+    } 
+    td{
+        font-size: small;
+    }
+    .antesydespues{
+        display:block
+        
+    }
+    .antes{
+        width:40vh 
+    }
+    .antestex{
+        width:40vh;
+    }
+    .antesform{
+        width:45vh;
+        margin: 15px;
+    }
+    
+}
+@media(max-width:1100px){
+    .nosotros{
+         display:block;
+    }
+    .nosotros1{
+        display:flex;
+        flex-direction:column;
+    }
+}
+
+
+
